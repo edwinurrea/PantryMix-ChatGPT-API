@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|c:\\users\\blank\\documents\\projects\\pantrymix\\pantrymix\\pantrymix\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|solutionrelative:pantrymix\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|c:\\users\\blank\\documents\\projects\\pantrymix\\pantrymix\\pantrymix\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|solutionrelative:pantrymix\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|c:\\users\\blank\\documents\\projects\\pantrymix\\pantrymix\\pantrymix\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|solutionrelative:pantrymix\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|c:\\users\\blank\\documents\\projects\\pantrymix\\pantrymix\\pantrymix\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|solutionrelative:pantrymix\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|c:\\users\\blank\\documents\\projects\\pantrymix\\pantrymix\\pantrymix\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|solutionrelative:pantrymix\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|c:\\users\\blank\\documents\\projects\\pantrymix\\pantrymix\\pantrymix\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{50A4AC59-7370-4024-AFF4-57D18EE772F5}|PantryMix\\PantryMix.csproj|solutionrelative:pantrymix\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PantryMix\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "PantryMix\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T20:37:53.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "PantryMix\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\Pages\\Index.cshtml",
+              "RelativeToolTip": "PantryMix\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T20:32:25.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PantryMix\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PantryMix\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T20:26:38.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "PantryMix\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "PantryMix\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AQIAANMAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-02T20:26:18.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "PantryMix\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "PantryMix\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AQIAABEBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-02T20:26:03.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PantryMix\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\PantryMix\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PantryMix\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-02T20:25:35.855Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
