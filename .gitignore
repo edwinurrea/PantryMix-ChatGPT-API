@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Exclude localhost certificate (if applicable)
-**/localhostcert/
+localhostcert/
