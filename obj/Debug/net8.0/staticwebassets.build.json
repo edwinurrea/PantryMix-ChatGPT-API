@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1IW1Jun64WupTy/rmvVFqp0eZhu2V/xq7o1bSKClKvo=",
+  "Hash": "48leeyMBgJ+l4EtdKUug0X10M7ca0GVq6ptz5G5mUVk=",
   "Source": "PantryMix",
   "BasePath": "_content/PantryMix",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\wwwroot\\images\\wood.jpg",
+      "SourceId": "PantryMix",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\wwwroot\\",
+      "BasePath": "_content/PantryMix",
+      "RelativePath": "images/wood.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wood.jpg"
     },
     {
       "Identity": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\wwwroot\\js\\site.js",

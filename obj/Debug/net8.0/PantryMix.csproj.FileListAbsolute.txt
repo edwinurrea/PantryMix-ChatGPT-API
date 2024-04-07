@@ -58,3 +58,9 @@ C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\obj\Debug\net8.0\refint\Pa
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\obj\Debug\net8.0\PantryMix.pdb
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\obj\Debug\net8.0\PantryMix.genruntimeconfig.cache
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\obj\Debug\net8.0\ref\PantryMix.dll
+C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\obj\Debug\net8.0\PantryMix.sourcelink.json
+C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\bin\Debug\net8.0\OpenAI_API.dll
+C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\obj\Debug\net8.0\PantryMix.csproj.AssemblyReference.cache
+C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\obj\Debug\net8.0\PantryMix.csproj.Up2Date

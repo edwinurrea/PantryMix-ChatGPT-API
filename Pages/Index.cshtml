@@ -8,3 +8,101 @@
     <h1 class="display-4">Welcome to PantryMix!</h1>
     <p>Enter your ingredients below to find out what new dishes you can make!</p>
 </div>
+
+<form id="ingredientsForm">
+    <div id="ingredientsContainer">
+        <div class="ingredient">
+            <input type="text" name="ingredient" placeholder="Enter Ingredient" />
+            <button type="button" class="deleteIngredient">-</button>
+            <button type="button" class="addIngredient">+</button>
+        </div>
+    </div>
+    <input type="submit" value="Submit" />
+</form>
+
+<div class="content">
+    <h1 class="content-heading">Recipes</h1>
+    <div id="responseContent"></div>
+    <div id="loadingContainer" style="display: none; text-align: center;">
+        <span id="loadingMessage">Loading...</span>
+    </div>
+</div>
+
+@section Scripts {
+    @using Microsoft.Extensions.Configuration
+    @inject IConfiguration Configuration
+    
+    <script>
+        $(document).ready(function () {
+        
+        // Add ingredient
+        $(document).on('click', '.addIngredient', function () {
+            var newIngredient = '<div class="ingredient"><input type="text" name="ingredient" placeholder="Enter Ingredient" /><button type="button" class="deleteIngredient">-</button><button type="button" class="addIngredient">+</button></div>';
+            $("#ingredientsContainer").append(newIngredient);
+        });
+
+        // Delete ingredient
+        $(document).on('click', '.deleteIngredient', function () {
+            if ($(this).closest('.ingredient').is(':first-child')) {
+                alert("The first ingredient cannot be deleted.");
+                return;
+            }
+                
+            $(this).closest('.ingredient').remove();
+       
+        });
+
+        // Submit ingredients
+        $('#ingredientsForm').submit(function (event) {
+            event.preventDefault();
+
+            $("#loadingContainer").show();
+
+
+            // Create a prompt using the ingredients entered by the user
+            var prompt = "(Say \"Enjoy!\" at the very end of the final response) Give me a few recipes using the following ingredients I have: ";
+            $('.ingredient input[type="text"]').each(function () {
+                var ingredientValue = $(this).val().trim();
+                if (ingredientValue !== '') {
+                    prompt += ingredientValue + ", ";
+                }
+            });
+            prompt = prompt.slice(0, -2); // Remove the trailing comma and space
+
+            // Send the prompt to the ChatGPT API
+            $.ajax({
+                type: 'POST',
+                url: 'https://api.openai.com/v1/chat/completions',
+                headers: {
+                    'Content-Type': 'application/json',
+                        'Authorization': 'Bearer @Configuration.GetSection("ApiKeys")["GPTApiKey"]'
+                },
+                data: JSON.stringify({
+                    model: 'gpt-3.5-turbo',
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": prompt
+                        }
+                    ],
+                    "temperature": 1,
+                    "max_tokens": 512,
+                    "top_p": 1,
+                    "temperature": 0.5,
+                    "frequency_penalty": 0,
+                    "presence_penalty": 0
+                }),
+                success: function (response) {
+                    var content = response.choices[0].message.content;
+                    $("#responseContent").html(content);
+                    $("#loadingContainer").hide();
+                },
+                error: function (xhr, status, error) {
+                    console.error(xhr.responseText);
+                    $("#loadingContainer").hide();
+                }
+            });
+        });
+        });
+    </script>
+}

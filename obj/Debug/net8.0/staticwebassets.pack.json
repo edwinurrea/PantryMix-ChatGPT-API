@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\wwwroot\\images\\wood.jpg",
+      "PackagePath": "staticwebassets\\images\\wood.jpg"
+    },
+    {
       "Id": "C:\\Users\\Blank\\Documents\\Projects\\PantryMix\\PantryMix\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
