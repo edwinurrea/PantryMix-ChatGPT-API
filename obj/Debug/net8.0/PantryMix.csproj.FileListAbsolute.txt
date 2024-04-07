@@ -29,7 +29,6 @@ C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\PantryMix\obj\Debug\net8.0
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\PantryMix\obj\Debug\net8.0\PantryMix.genruntimeconfig.cache
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\PantryMix\obj\Debug\net8.0\ref\PantryMix.dll
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\bin\Debug\net8.0\appsettings.json
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\bin\Debug\net8.0\PantryMix.staticwebassets.runtime.json
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\bin\Debug\net8.0\PantryMix.exe
 C:\Users\Blank\Documents\Projects\PantryMix\PantryMix\bin\Debug\net8.0\PantryMix.deps.json
