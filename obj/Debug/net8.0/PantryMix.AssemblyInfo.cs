@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PantryMix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+104aca25ed8c90a2f1d521e64829a11594c6868b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9538e2b279583089b0b428145f03b397929108d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PantryMix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PantryMix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
