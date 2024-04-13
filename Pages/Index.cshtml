@@ -22,10 +22,10 @@
 
 <div class="content">
     <h1 class="content-heading">Recipes</h1>
-    <div id="responseContent"></div>
     <div id="loadingContainer" style="display: none; text-align: center;">
         <span id="loadingMessage">Loading...</span>
     </div>
+    <div id="responseContent" style="height: 300px; overflow-y: hidden;"></div>
 </div>
 
 @section Scripts {    
@@ -75,7 +75,7 @@
                         'Authorization': 'Bearer @Environment.GetEnvironmentVariable("GPTApiKey")'
                 },
                 data: JSON.stringify({
-                    model: 'gpt-3.5-turbo',
+                    model: 'gpt-3.5-turbo-0125',
                     "messages": [
                         {
                             "role": "user",
@@ -92,6 +92,7 @@
                 success: function (response) {
                     var content = response.choices[0].message.content;
                     $("#responseContent").html(content);
+                    $("#responseContent").css("height", "auto");
                     $("#loadingContainer").hide();
                 },
                 error: function (xhr, status, error) {

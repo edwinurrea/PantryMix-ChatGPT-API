@@ -32,16 +32,11 @@ html::after {
     z-index: -1; 
 }
 
-
 body {
     background-color: transparent;
     color: #c5e8f4;
     margin-top: 30px;
     margin-bottom: 60px;
-}
-
-.content::before {
-    height:500px;
 }
 
 .content {
@@ -68,6 +63,7 @@ body {
 }
 
 .ingredient {
+    display: ruby-text;
     margin-bottom: 5px;
 }
 
@@ -81,14 +77,14 @@ body {
         margin-right: 0px;
     }
 
-.deleteIngredient,
-.addIngredient {
+button.deleteIngredient, button.addIngredient {
     width: 30px;
-    height: 40px;
+    height: 34px;
     text-align: center;
     cursor: pointer;
-    font-size: 16px;
     border-radius: 5px;
+    align-content: center;
+    padding: 0px;
 }
 
 .deleteIngredient {
